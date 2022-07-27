@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        ul {
+            display: inline-block;
+        }
+        
+        div {
+            display: inline-block;
+            border: 1px solid black;
+            height: 180px;
+            width: 200px;
+        }
+
+        div.lendas {
+            background-color: rgba(255, 230, 1, 0.692);
+            
+        }
+
+        div.bons {
+            background-color: rgba(0, 128, 0, 0.582);
+        }
+
+        div.lendas:hover  {
+            
+            background-color: black;
+            color: gold;
+        }
+
+        div.bons:hover  {
+           
+            background-color: darkolivegreen;
+            color: greenyellow;
+        }
+
+        a {
+            background-color: black;
+            color: gold;
+        }
+        
+        a:active {
+            color: darkgrey;
+        }
+
+        a.bons {
+            background-color: darkolivegreen;
+            color: greenyellow;
+        }
+
+        a.bons:active {
+            color: darkgray;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <h1>Treinando Pseudo classes e elementos</h1>
+    <div class="lendas">
+        Lendas
+            <p>
+                Messi <br>
+                Cristiano Ronaldo <br>
+                Neymar <br>
+                Mbappé <br>
+                Modric <br>
+            </p>
+    </div>
+    <div class="bons">
+        Bons
+            <p>
+                Vini Jr <br>
+                Dybala <br>
+                De Bruyne <br>
+                Benzema <br>
+                Alisson
+                
+            </p>
+    </div>
+    <h2>Redes sociais dos jogadores</h2>
+    <ul>
+        <li><a href="https://www.instagram.com/leomessi/" target="_blank">Messi</a></li>
+        <li><a href="https://www.instagram.com/cristiano/" target="_blank">Cristiano Ronaldo</a></li>
+        <li><a href="https://www.instagram.com/neymarjr/" target="_blank">Neymar</a></li>
+        <li><a href="https://www.instagram.com/k.mbappe/" target="_blank">Mbappé</a></li>
+        <li><a href="https://www.instagram.com/lukamodric10/" target="_blank">Modric</a></li>
+    </ul>
+    <ul class="bons">
+        <li><a href="https://www.instagram.com/vinijr/" target="_blank" class="bons">Vini Jr</a></li>
+        <li><a href="https://www.instagram.com/Dybala7/" target="_blank" class="bons">Dybala</a></li>
+        <li><a href="https://www.instagram.com/k.debruyne/" target="_blank" class="bons">De Bruyne</a></li>
+        <li><a href="https://www.instagram.com/benzema9/" target="_blank" class="bons">Benzema</a></li>
+        <li><a href="https://www.instagram.com/alisson/" target="_blank" class="bons">Alisson</a></li>
+    </ul>
+</body>
+</html>

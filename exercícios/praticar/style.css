@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(200, 158, 255);
+    color: white;
+}
+
+header {
+    background-color: darkmagenta;
+    padding: 15px;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    padding-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header a:hover {
+    background-color: rgb(175, 99, 175);
+    transition-duration: .5s;
+    padding: 5px;
+    color: rgb(66, 0, 92);
+    border-radius: 10px;
+}
+
+main {
+    background-color: rgb(66, 0, 92);
+    margin: auto;
+    padding: 10px;
+    box-shadow: 2px 2px 4px black;
+    max-width: 800px;
+    min-width: 200px;
+    
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h2 {
+    background-image: linear-gradient(to right, darkmagenta, rgb(175, 99, 175));
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main p{
+    padding: 3px;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+img {
+    background-color: darkmagenta;
+    padding: 20px;
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+
+aside{
+    background-color: rgb(100, 9, 100);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside img {
+    width: 20%;
+    max-height: 60%;
+    display: block;
+}
+
+aside h3 {
+    background-color: darkmagenta;
+    padding: 10px ;
+    margin: -10px;
+    border-radius: 10px 10px 0px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: darkmagenta;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    padding: 1px;
+    text-align: center;
+    font-size: 14px;
+}
