@@ -1,0 +1,54 @@
+
+
+body {
+    margin: 0px;
+    height: 98vh;
+}
+header {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Passion One', cursive;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+header > a {
+    color: white;
+}
+header a:hover {
+    text-decoration: underline;
+}
+header a:visited {
+    color: white    
+}
+
+article > p {
+    max-width: 500px;
+    margin: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    line-height: 60px;
+}
+
+div {
+    height: 100vh;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px; 
+}
+p#dentro {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    font-size: 28px;
+    line-height: 45px;
+    width: 330px;
+    height: 470px;
+    text-align: left;
+}
