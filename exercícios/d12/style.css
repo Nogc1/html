@@ -59,10 +59,10 @@ p {
     background-size: cover;
 }
 div p{
+    padding: 5px;
+    display: inline-block;
     color: white;
     background-color: rgba(0, 0, 0, 0.39);
-    width: 400px;
-    height: 410px;
     text-shadow: 1px 1px 1px black;
 }
 main p {
