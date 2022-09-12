@@ -13,11 +13,29 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            background-color: rgb(92, 92, 92);
+            padding: 5px;
+            font-weight: bold;
+            font-size: 20px;
         }
 
         td, th {
             border: 1px solid black;
             padding: 10px;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
         thead, tfoot {
@@ -34,6 +52,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -42,10 +61,13 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>
+            População das Unidades Federativas
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 55px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -160,17 +182,24 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td id="res"></td>
             </tr>
         </tfoot>
     </table>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat consequuntur reiciendis cupiditate cum deleniti libero saepe aut adipisci, ipsum laudantium magnam. Dolore dicta et soluta ea explicabo? Doloribus, nulla error? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis commodi dicta alias maiores vero reprehenderit dolore, debitis voluptas impedit aspernatur. Officiis mollitia eligendi eos fuga non libero dolor minus ex.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo non quaerat praesentium exercitationem, officia, aliquam odit asperiores tempora quisquam, odio ex! Dolore similique quasi ea sunt corporis impedit sint nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt maxime, corporis quo enim nobis natus laudantium sit ratione voluptates illum incidunt, maiores rerum in quod. Commodi cupiditate fugiat voluptatem provident.
+    </p>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat consequuntur reiciendis cupiditate cum deleniti libero saepe aut adipisci, ipsum laudantium magnam. Dolore dicta et soluta ea explicabo? Doloribus, nulla error? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis commodi dicta alias maiores vero reprehenderit dolore, debitis voluptas impedit aspernatur. Officiis mollitia eligendi eos fuga non libero dolor minus ex.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo non quaerat praesentium exercitationem, officia, aliquam odit asperiores tempora quisquam, odio ex! Dolore similique quasi ea sunt corporis impedit sint nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt maxime, corporis quo enim nobis natus laudantium sit ratione voluptates illum incidunt, maiores rerum in quod. Commodi cupiditate fugiat voluptatem provident.
+    </p>
     <script>
         function soma() {
             var n = document.getElementsByClassName('num')
             var num = Number(n.value)
             var res = document.getElementById('res')
             var s = num + num
+            res.innerHTML = s
         }
     </script>
 </body>
