@@ -186,7 +186,9 @@
                 <td id="res"></td>
             </tr>
         </tfoot>
+        
     </table>
+    <div id="res"></div>
     <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat consequuntur reiciendis cupiditate cum deleniti libero saepe aut adipisci, ipsum laudantium magnam. Dolore dicta et soluta ea explicabo? Doloribus, nulla error? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis commodi dicta alias maiores vero reprehenderit dolore, debitis voluptas impedit aspernatur. Officiis mollitia eligendi eos fuga non libero dolor minus ex.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo non quaerat praesentium exercitationem, officia, aliquam odit asperiores tempora quisquam, odio ex! Dolore similique quasi ea sunt corporis impedit sint nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt maxime, corporis quo enim nobis natus laudantium sit ratione voluptates illum incidunt, maiores rerum in quod. Commodi cupiditate fugiat voluptatem provident.
     </p>
@@ -194,13 +196,11 @@
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat consequuntur reiciendis cupiditate cum deleniti libero saepe aut adipisci, ipsum laudantium magnam. Dolore dicta et soluta ea explicabo? Doloribus, nulla error? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis commodi dicta alias maiores vero reprehenderit dolore, debitis voluptas impedit aspernatur. Officiis mollitia eligendi eos fuga non libero dolor minus ex.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo non quaerat praesentium exercitationem, officia, aliquam odit asperiores tempora quisquam, odio ex! Dolore similique quasi ea sunt corporis impedit sint nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt maxime, corporis quo enim nobis natus laudantium sit ratione voluptates illum incidunt, maiores rerum in quod. Commodi cupiditate fugiat voluptatem provident.
     </p>
     <script>
-        function soma() {
-            var n = document.getElementsByClassName('num')
-            var num = Number(n.value)
-            var res = document.getElementById('res')
-            var s = num + num
-            res.innerHTML = s
-        }
+        var n = document.getElementsByClassName('num').value
+        var res = document.querySelector('td#res')
+        var s = n + n
+        res.innerHTML = '' + s
+        
     </script>
 </body>
 </html>
