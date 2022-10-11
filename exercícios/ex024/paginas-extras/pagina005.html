@@ -17,17 +17,18 @@
 <body>
     <a href="#" onclick="clicou()">Clique em mim</a>
     <div id="saida">
-        <script>
-            hover()
-            function hover() {
-                s = document.getElementById('saida')
-                s.innerHTML += '<p>Você clicou!</p>'    
-            } 
-        </script>
+       
         
     </div>
 
     <script>
+         
+        
+        function hover() {
+            s = document.getElementById('saida')
+            s.innerHTML += '<p>Você clicou!</p>'    
+        } 
+    
         function clicou() {
             s = document.getElementById('saida')
             s.innerHTML += '<p>Você clicou!</p>'
