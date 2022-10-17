@@ -1,0 +1,17 @@
+body {
+    background-image: url(paginas-extras/imagens/fundo-madeira.jpg);
+    background-color: black;
+}
+
+section#telefone {
+    text-align: center;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+a {
+    border-radius: 10px;
+}
+
