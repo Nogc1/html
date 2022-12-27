@@ -1,6 +1,84 @@
 @charset "UTF-8";
 
+@media screen {
+    
+}
+
 /* 
     Paleta de cores
-    
+    azul escuro: #191970
+    azul ciano: #154C7D
+    azul: #3C3CBD
+    amarelo: #BD9B04
 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #191970;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+section {
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.575);
+}
+
+section p {
+    text-align: justify;
+    padding: 0px 10px ;
+}
+
+div#imagem {
+    border-radius: 10px 10px 0px 0px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
+    background-image: url(../metal.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input.input {
+    margin: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #154C7D;
+    border-style: solid;
+}
+
+input#enviar {
+    margin: 3px;
+    padding: 6px;
+    width: 180px;
+    color: white;
+    background-color: #3c3cbdc5;
+    border: none;
+    border-radius: 5px;
+}
+
+input#esqsenha {
+    margin: 3px;
+    padding: 6px;
+    width: 180px;
+    border-color: #3c3cbd88;
+    background-color: white;
+    border-radius: 5px;
+    color: #3c3cbd;
+}
