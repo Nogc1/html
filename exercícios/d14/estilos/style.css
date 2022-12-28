@@ -12,28 +12,21 @@
     amarelo: #BD9B04
 */
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
+body, html {
     background-color: #191970;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main {
-    margin: auto;
-    display: block;
     text-align: center;
 }
 
 section {
     margin: auto;
     display: block;
-    text-align: center;
     width: 300px;
+    text-align: center;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.575);
@@ -71,6 +64,11 @@ input#enviar {
     background-color: #3c3cbdc5;
     border: none;
     border-radius: 5px;
+}
+
+input#enviar:hover {
+    background-color: #5555bece;
+    color: rgb(228, 228, 228);
 }
 
 input#esqsenha {
