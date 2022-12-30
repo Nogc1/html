@@ -51,7 +51,7 @@ div#imagem {
 input.input {
     margin: 3px;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 0px 5px 5px 0px;
     border-color: #154C7D;
     border-style: solid;
 }
@@ -61,13 +61,14 @@ input#enviar {
     padding: 6px;
     width: 180px;
     color: white;
-    background-color: #3c3cbdc5;
+    background-color: #191970;
     border: none;
     border-radius: 5px;
+    margin-left: 15px;
 }
 
 input#enviar:hover {
-    background-color: #5555bece;
+    background-color: #191970b0;
     color: rgb(228, 228, 228);
 }
 
@@ -75,8 +76,19 @@ input#esqsenha {
     margin: 3px;
     padding: 6px;
     width: 180px;
-    border-color: #3c3cbd88;
+    border-color: #191970;
     background-color: white;
     border-radius: 5px;
-    color: #3c3cbd;
+    color: #191970;
+    margin-left: 15px;
+}
+
+span {
+    background-color: #154C7D;
+    border-radius: 5px 0px 0px 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    position: relative;
+    top: 5px;
+    left: 10px;
 }
