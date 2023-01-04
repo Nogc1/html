@@ -13,16 +13,19 @@
 */
 
 body, html {
+    width: 100vw;
+    height: 100vh;
     background-color: #191970;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main {
-    text-align: center;
+    text-align: center; 
 }
 
 section {
+    overflow: hidden;
     margin: auto;
     display: block;
     width: 300px;
@@ -39,7 +42,6 @@ section p {
 
 div#imagem {
     display: block;
-    border-radius: 10px 10px 0px 0px;
     width: 300px;
     height: 200px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
