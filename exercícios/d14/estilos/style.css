@@ -12,6 +12,11 @@
     amarelo: #BD9B04
 */
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 body, html {
     width: 100vw;
     height: 100vh;
@@ -21,13 +26,18 @@ body, html {
 }
 
 main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
     text-align: center; 
 }
 
 section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     overflow: hidden;
-    margin: auto;
-    display: block;
     width: 300px;
     text-align: center;
     background-color: rgb(255, 255, 255);
@@ -41,7 +51,7 @@ section p {
 }
 
 div#imagem {
-    display: block;
+    /* display: block; */
     width: 300px;
     height: 200px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
